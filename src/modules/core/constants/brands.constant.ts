@@ -1,0 +1,15 @@
+export const BRANDS = [
+  'apple',
+  'iphone',
+  'ipad',
+  'samsung',
+  'oppo',
+  'vivo',
+  'realme',
+  'xiaomi',
+  'redmi',
+  'huawei',
+  'oneplus',
+  'infinix',
+  'tecno',
+]

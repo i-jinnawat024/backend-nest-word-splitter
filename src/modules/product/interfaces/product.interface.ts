@@ -1,0 +1,33 @@
+export interface IProducts {
+  brand: string
+  channel: string
+  color: string
+  colorTh: string
+  createdDate: Date
+  description: string
+  descriptionTh: string
+  dpltBrand: string
+  dpltMajor: string
+  dpltModel: string
+  dpltSub: string
+  groupId: string
+  ibrand1: string
+  ibrand2: string
+  ibrand3: string
+  ibrand4: string
+  image: string
+  itemNumber: string
+  itemG2: string
+  itemG3: string
+  itemG4: string
+  exclusivePrice: number
+  premiumPrice: number
+  listPrice: number
+  vipPrice: number
+  productName: string
+  startDateListPrice: Date
+  startDateOther: Date
+  startDateAcc: Date
+  filterSub: string
+  typeBrand: string
+}

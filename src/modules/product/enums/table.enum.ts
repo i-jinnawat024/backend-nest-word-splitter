@@ -1,0 +1,6 @@
+export enum ETable {
+  DPLTAX_SCSO_PRODUCT = 'DPLTAX_SCSO_Product',
+  DPLTSB_TABLE_ITEMS_PRODUCTIONS = 'DPLTSB_TABLE_Items_Productions',
+  DPLTSB_TABLE_MASTER_BRAND_DPLUS_WEPLUS = 'DPLTSB_TABLE_MasterBrand_DplusWeplus',
+  DWT_SEARCH_REPLACE_BRAND = 'DWT_Search_Replace_Brand',
+}
