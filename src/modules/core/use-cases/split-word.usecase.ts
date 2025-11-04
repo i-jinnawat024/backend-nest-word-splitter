@@ -50,9 +50,9 @@ export class SplitWordUseCase {
     }
     return Array.from(map, ([itemNumber, customModel]) => ({ itemNumber, customModel }))
   }
-  async execute(data: IProducts[]) {
+  async execute(data: IProducts[] | string) {
     const customWord = await this.getCustomWord()
-
+    if (typeof data === 'string') return splitDeviceModels(data)
     return {
       result: data.map((c) => {
         const customModelOriginal = splitDeviceModels(c.dpltBrand)
